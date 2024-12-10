@@ -2,6 +2,8 @@
 
 This simple Discord app utilizes MindStudio to create a personal assistant bot for your Discord Server. Just tag the bot and ask anything to receive a response.
 
+This can be useful for having a support bot in your Discord community server that can answer questions on the fly.
+
 ![image](https://github.com/user-attachments/assets/91a5a10b-c72c-4553-a529-1e6af73c1c4a)
 
 
@@ -74,6 +76,8 @@ With the Node app running, anyone should be able to tag the bot and ask anything
 
 This is a basic flow that only takes the user’s message and passes it to the MindStudio Worker.
 An idea to expand this bot’s capabilities would be to include more messages as context (keeping in mind the AI model’s token limitations and cost).
+
+Another use case would be to track all messages in your Discord server, and have a MindStudio Worker look out for any bug reports, questions or feature requests, and automatically assign an appropriate Notion ticket with all the relevant details.
 
 # Useful resources:
 [Discord Docs](https://discord.com/developers/docs/quick-start/getting-started#configuring-your-bot)
