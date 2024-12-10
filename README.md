@@ -2,7 +2,7 @@
 
 This simple Discord app utilizes MindStudio to create a personal assistant bot for your Discord Server. Just tag the bot and ask anything to receive a response.
 
-![image](https://github.com/user-attachments/assets/a880827d-248e-4799-944b-f91e73d3cd2c)
+![image](https://github.com/user-attachments/assets/91a5a10b-c72c-4553-a529-1e6af73c1c4a)
 
 
 ## Setup
@@ -22,21 +22,13 @@ This includes creating a Slack app and a MindStudio AI Worker.
 
 1. Create a new Discord App [here](https://discord.com/developers/applications?new_application=true).
 
-2. Inside the `Basic Information` tab, find the `Signing Secret`, and assign it to `SLACK_SIGNING_SECRET` in your `.env` file.
+2. Inside the `Bot` tab, reset the token and grab a new one. Assign it to `DISCORD_BOT_TOKEN` in the `.env` file. 
 
-3. Scroll down to `App-Level Tokens` , click on `Generate Token and Scopes` . Give it a name and choose all 3 scopes, then click `Generate`.
+3. Scroll down and enable `Message Content Intent`.
 
-4. Assign the `Token` to the `SLACK_APP_TOKEN` in your `.env` file.
+4. In the `Installation` tab, under `Guild Install -> SCOPES`, add `bot`. Then under `PERMISSIONS` add `Send Messages` and `Send Messages in Threads`. You may add more permissions depending on your use case.
 
-5. (Optional) Scroll down to `Display Information` and add some more details for your Slack bot.
-6. Save changes.
-7. Go into `Socket Mode` tab and `Enable Socket Mode`. For this guide we’ll use the socket mode instead of HTTP. [More info here](https://tools.slack.dev/bolt-js/getting-started/#setting-up-events).
-
-8. Go into `Event Subscriptions`  tab, toggle on `Enable Events`  and add the following to `Subscribe to Bot Events`
-
-9. Install the App to your Slack workspace in the `Install App` tab.
-
-10. Assign the **`Bot User OAuth Token`** into your `SLACK_BOT_TOKEN` variable in the `.env` file.
+5. Install the bot on your Discord Server using the install link in the `Installation` tab.
 
 ## Create a MindStudio AI Worker
 
@@ -51,10 +43,8 @@ ___
 Your `.env` file should now look like this, with actual keys:
 
 ```
-SLACK_SIGNING_SECRET=b65daa5c486***************
-SLACK_BOT_TOKEN=xoxb-***************
-SLACK_APP_TOKEN=xapp-***************
 MINDSTUDIO_KEY=sku***************
+DISCORD_BOT_TOKEN=MTMx******************
 ```
 
 ## Run the app
@@ -71,23 +61,23 @@ Run the app:
 npm start
 ```
 
-You should now see the `⚡️ MindStudio Slack bot is running!` message in the terminal.
+You should now see the `⚡️ MindStudio Discord bot is running!` message in the terminal.
 
 ## Test your bot
 
 With the Node app running, anyone should be able to tag the bot and ask anything.
 
-![image](https://github.com/user-attachments/assets/0f31b1d8-403e-46b0-9816-d2d53c530b91)
+![image](https://github.com/user-attachments/assets/91a5a10b-c72c-4553-a529-1e6af73c1c4a)
 
 
 ## Next steps
 
 This is a basic flow that only takes the user’s message and passes it to the MindStudio Worker.
-An idea to expand this bot’s capabilities would be to use the whole thread as context (keeping in mind the AI model’s token limitations and cost).
+An idea to expand this bot’s capabilities would be to include more messages as context (keeping in mind the AI model’s token limitations and cost).
 
 # Useful resources:
-[Slack Developer Docs](https://tools.slack.dev/)
+[Discord Docs](https://discord.com/developers/docs/quick-start/getting-started#configuring-your-bot)
 
-[MindStudio Docs](https://help.mindstudio.ai/) (For creating AI workers)
+[MindStudio Docs](https://help.mindstudio.ai/)
 
 [MindStudio NPM Package](https://www.npmjs.com/package/mindstudio)
