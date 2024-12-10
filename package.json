@@ -1,0 +1,18 @@
+{
+  "type": "module",
+  "name": "mindstudiodiscordbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7",
+    "mindstudio": "^0.9.3"
+  }
+}

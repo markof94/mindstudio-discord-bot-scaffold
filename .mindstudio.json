@@ -1,0 +1,645 @@
+{
+  "version": "1.0.0",
+  "workers": [
+    {
+      "id": "3a58e15e-4094-4956-bcb8-3705e2e33f15",
+      "name": "🦉 GPT-4 Turbo Test",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "82da3e0a-5d68-4843-983f-8d6d0c3bf075",
+          "name": "⊷ Analyze an image",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "bbabab32-522f-4303-96c2-f2885952d533",
+          "name": "Ask a question",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "2ec6914e-d517-4d8d-b58f-9d2d32a06f50",
+          "name": "Main workflow",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "7bdffb9e-ac2e-45d0-9f77-dde3bd704fcb",
+          "name": "Upload a file",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "6f8c2169-a430-42a5-b252-0c040a983598",
+      "name": "API Test",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "116ad10a-c9c2-4fa6-b080-ba349c9e443b",
+          "name": "Main",
+          "launchVariables": [
+            "topic"
+          ],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "72d543e9-9494-429d-a0f7-a2b8cd208a95",
+      "name": "Blocks test",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "49ef1c6f-2042-4563-9961-3b54a7eb1ef1",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "883657fc-1ca1-4f16-bdfd-ed07d381a968",
+          "name": "Workflow",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "f44520ff-8d0f-4068-95ea-a0c59293d067",
+      "name": "Chart Generator",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "5912b2fc-6d00-4f16-a115-331b83813f31",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "35cc710c-bcdd-4859-93bf-9435d00d1920",
+      "name": "Employee Handbook Navigator",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "ca9855a7-cc9a-4500-b32f-193b07e471bf",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "41c72f4c-4911-4933-be23-0fb7d13a2d08",
+      "name": "Employee Handbook Navigator",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "ca9855a7-cc9a-4500-b32f-193b07e471bf",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "eebe47da-24cc-47e1-9097-f0a6d0dd1244",
+      "name": "Employee Handbook Navigator",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "ca9855a7-cc9a-4500-b32f-193b07e471bf",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "7f0c1172-bfd2-4a2c-a22b-ff1870075c2f",
+      "name": "Extract text from url",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "9b6b9189-dd95-44a5-9568-9ea3a93a4a5f",
+          "name": "Main",
+          "launchVariables": [
+            "url"
+          ],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "e9e2ccec-5cb8-43a5-91c7-a0d7658f7e31",
+      "name": "Firecrawl Test",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "c56740d4-a1f5-402e-a0d3-bd60cc98c01d",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "fd2495b2-219b-4791-abb4-c61b5efaf66e",
+      "name": "Generative Text Composer",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "49335b66-4e08-4200-b1be-4a087b4d5b46",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "94684396-a87f-4c86-889a-47ce2f927e03",
+      "name": "Image Test",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "43a5d2dc-f30d-4f2d-9453-f26e30970ad6",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "f17cd265-ecf4-4489-9bed-16c80dcda4fd",
+      "name": "IP+ (TEST)",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "8802214f-f9e4-46ae-89c7-d16cb5a99f39",
+          "name": "Abstract & Claims - Similarity Search",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "7959d372-5965-439f-a34d-cb319344d7f5",
+          "name": "IDF Improvement Tool",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "c2bc371d-d0f2-42b8-b915-f9b299f76eff",
+          "name": "IDF Scrape - Similarity Search",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "dd47aecf-babc-4df2-afa0-1e881cd776b5",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "a177027a-f30e-425a-9248-52b16d1d4d0b",
+      "name": "LawMentorAI (Beta)",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "f406833a-4370-4776-8320-5c42d69c5242",
+          "name": "ConstitutionalLaw",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "d9b43443-5a99-4614-897d-c51d82e8f399",
+          "name": "CriminalLaw",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "0cd3b514-97aa-448f-8d65-42c3c7083f61",
+          "name": "FamilyLaw",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "422f4ad1-e5ec-4855-b984-34c2c0972422",
+          "name": "InternationalLaw",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "b785a8ce-9179-46b1-9548-a91a6ae25616",
+          "name": "IntroToLaw",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "5914c79f-6df3-4e3f-be72-8ae0d7311634",
+          "name": "law_choice",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "5f597c7e-bcf6-48c7-b495-a85ec689c2dc",
+          "name": "LawOfPersons",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "64b4f571-d53b-4b29-91d1-47d22bd01c82",
+          "name": "PropertyLaw",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "89b3b6d3-5e98-492d-bd1c-18e3693787a0",
+      "name": "Logging testfsdf",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "8b37f1d3-1ab2-40ed-b168-529f0fce5cfa",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "c254869b-abd1-4c38-90d1-2a0932c0ed20",
+          "name": "Main 1",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "b7994a4e-c472-41b1-8b84-00612bfbb5c5",
+          "name": "Main 1 1",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "319291a0-99d6-49f3-9968-20175e83b706",
+          "name": "Main 2",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "4491c645-894f-47db-abf9-228d6efcd798",
+      "name": "Long AI name testing test long name give me long name pls",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "a72d5b2f-67b8-4cf5-b805-a5fc8059b9f1",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "66a860fa-d445-4aec-9cea-0439fc07ff83",
+      "name": "O1 test",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "ec73289d-c631-4614-8117-e4d2eab4b643",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "badaf143-c86d-4d07-b4ff-a54fbac45ebc",
+      "name": "Password Test",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "5dc247d0-f293-40a2-9a87-e050dc6652b4",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "d6d2dcc4-6ef8-4467-8db7-719d8b9b5cbf",
+      "name": "PDF Export test",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "7619a8fb-5cd9-4a26-becc-0b73102c1645",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "cd97bb5c-edb8-4143-9cc1-79e7a60e37ad",
+      "name": "Pirates's AI",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "5b536a0a-617e-4c2a-ae66-e11ec5cd4e76",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "b6c5a448-b0a5-4143-824d-7581bf58b86c",
+      "name": "Pirates's AI",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "5b536a0a-617e-4c2a-ae66-e11ec5cd4e76",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "c24c3d7f-5e35-49ca-919a-815024d20415",
+      "name": "React Helper",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "c7630a26-241a-4cab-844c-5904bb79e1f3",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "dc274fc1-6000-4d43-95a9-57bf5c5b5feb",
+      "name": "shay doc explorer",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "95d39251-7762-4629-9e73-c639f01f33cd",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "e06eb1b5-14c2-4b86-bc91-c3256f38d9b2",
+      "name": "Single page layout test",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "db7e9905-e7c0-40a3-8826-07b765d76ae1",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        },
+        {
+          "id": "01e4a273-d5ec-421b-bb5c-743a13d0dee6",
+          "name": "Workflow",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "19f6f162-5c4f-4976-aee2-e5a9096d17c7",
+      "name": "Tacna AI",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "0d3d5e16-1584-415f-9351-9efaae26ff6b",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "7143fc31-f40d-4dde-94ad-984c38518c84",
+      "name": "Talk To PDF test",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "987af34c-5ae5-487c-a3b6-b290218d1191",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "3b1a16f4-c182-400d-89b9-98841bca3c06",
+      "name": "Test",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "f87c09bb-3cee-4f22-b315-2c04bd93f612",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "c53b3cfc-7911-410f-bf47-655190c68e50",
+      "name": "Testing alt account AI",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "2013797c-d971-41b3-a205-ee2b7667e032",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "a9804b6a-f4cd-4bf2-8760-30c4767dc9b1",
+      "name": "The Assistant",
+      "slug": "Assistant",
+      "workflows": [
+        {
+          "id": "004a75ff-f806-473d-b102-dedad63c2478",
+          "name": "API",
+          "launchVariables": [
+            "prompt"
+          ],
+          "outputVariables": []
+        },
+        {
+          "id": "0807173a-b2b3-4954-bc40-4473164a1353",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "a14b13d0-9c6f-4f33-b3bf-9e020ec4629a",
+      "name": "Translator",
+      "slug": "MarketingContentTranslator",
+      "workflows": [
+        {
+          "id": "ffc9d992-81a4-47da-afab-9e0d8e706260",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "45c719d1-5162-446f-9051-38c3077feca1",
+      "name": "Untitled AI",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "ad623421-b170-436b-9253-4250703c1182",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "b0053ad3-23d4-49a1-8f8f-41093c133b88",
+      "name": "Untitled AI",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "aacbb8e5-fe88-4f82-b3e9-f819b395d069",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "16d01f38-a069-4b0a-ace2-b41288d97f15",
+      "name": "Untitled AI",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "9425ee08-60f8-4ba1-b3fe-f5a6df15b7ca",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "792da83c-d27f-4825-a3b4-eab62e25ad4b",
+      "name": "Untitled AI",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "5b60b8e5-8126-4ca7-841e-25dd61cae4f0",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "eb9bd478-d88b-462f-b16c-4f9a3423f960",
+      "name": "Untitled AI",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "a2f16e82-6f23-4e7c-aa78-e251deeeb54e",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "aa84c7d1-f206-4ca0-b0b0-bf431b4a655b",
+      "name": "Untitled AI",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "e4ca0f50-b593-43c5-aa11-e055da9547c2",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "7be27871-0e19-4cfc-87c1-56444c9245e3",
+      "name": "Untitled AI",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "13a5ca49-bb84-4dd5-9b05-3f3683e32122",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "8dcd9600-57bd-4aed-908d-3ef9ef67fed4",
+      "name": "Untitled AI",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "826f9b3a-6692-4a38-8681-029696d33d1e",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "8e767acc-7956-4c90-b296-7b92fe98f2ac",
+      "name": "Untitled AI",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "bc5c7686-830d-4fee-a893-015c1a7ab438",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "a5fddca5-8d51-4e05-99b0-07c117fe84c5",
+      "name": "Untitled AI",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "7ceec1df-9b8f-4d26-8d4c-cfe920adb0cd",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    },
+    {
+      "id": "1cc82bb8-4358-4862-8e36-4a5774848c2c",
+      "name": "URL normalize test",
+      "slug": null,
+      "workflows": [
+        {
+          "id": "51ea3d72-6503-4d98-ba17-89ed517f1ec8",
+          "name": "Main",
+          "launchVariables": [],
+          "outputVariables": []
+        }
+      ]
+    }
+  ]
+}
