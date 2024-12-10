@@ -69,7 +69,7 @@ client.on("messageCreate", async (message) => {
         return;
       }
 
-      // Reply to the message
+      // Update message with the MindStudio response
       await responseMessage.edit(mindstudioResult);
     } catch (error) {
       if (error instanceof MindStudioError) {
